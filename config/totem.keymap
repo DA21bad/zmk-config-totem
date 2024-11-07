@@ -103,7 +103,7 @@
             bindings = <
                 &kp Q  &kp W  &kp E             &kp R           &kp T        &kp Y         &kp U           &kp I        &kp O    &kp P
                 &kp A  &kp S  &kp D             &kp F           &kp G        &kp H         &kp J           &kp K        &kp L    &ene
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V           &kp B        &kp N         &kp M           &kp COMMA    &kp DOT  &kp APOS  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V           &kp B        &kp N         &kp M           &kp COMMA    &kp DOT  &kp APOS  &kp RIGHT_CONTROL
                               &kp LEFT_CONTROL  &lt 1 NUMBER_1  &kp SPACE    &kp LEFT_WIN  &lt 2 NUMBER_2  &kp RC(TAB)
             >;
         };
