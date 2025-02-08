@@ -29,13 +29,8 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <1 0>;
+            key-positions = <10 20>;
             bindings = <&kp ESC>;
-        };
-
-        Task_manager {
-            bindings = <&kp RC(RA(BACKSPACE))>;
-            key-positions = <30 31 19>;
         };
 
         backspace {
@@ -45,12 +40,12 @@
 
         Delete {
             bindings = <&kp DEL>;
-            key-positions = <7 6>;
+            key-positions = <1 0>;
         };
 
         Tabulate {
             bindings = <&kp TAB>;
-            key-positions = <0 20>;
+            key-positions = <11 10>;
         };
 
         gaming_layer {
@@ -60,7 +55,17 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <30 29>;
+            key-positions = <17 18>;
+        };
+
+        Mayus {
+            bindings = <&kp CAPS>;
+            key-positions = <21 22>;
+        };
+
+        Win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <26 27>;
         };
     };
 
